@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blogr</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+   <!-- ////navbar navbar-light bg-light -->
+   <!-- ////i had to add a header to this and then put the background img on the header -->
+   <header class="header">
+    
+   <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="logo.svg"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 500px;">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Connect
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>       
+        </ul>
+        <form class="d-flex btns">
+          <button class="btn">Login</button>
+          <button class="btn btn-outline-success" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- ///main here is still in header -->
+  <section class="main">
+    <div class="container content-main text-center">
+     <h1>A modern publishing platform</h1>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, eius.</p>
+     <div class="btns"><button>Start for free</button><button>learn more</button></div>
+    </div>
+  </section>
+  </header>
+  <!-- /////design section -->
+  <section class="design">
+    <h2 class="text-center">Designed for the future</h2>
+    <div class="container d-flex">
+      <div class="row design-row">
+        <div class="col"><h3>Introducing an extensible editor</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error exercitationem, iure commodi officia earum voluptatum doloribus eius optio sed rerum hic vero velit autem, voluptate quaerat accusantium eaque, tempore omnis!</p>
+        <h3>Robust contact management</h3><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis odit cupiditate aspernatur accusamus animi accusantium hic enim temporibus laudantium illo esse laboriosam vero, molestiae eligendi officia dolores commodi ullam totam eaque ut assumenda nam! Optio.</p></div>
+        <div class="col"><img src="illustration-editor-desktop.svg" class="img-fluid edit-img"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- ////state art -->
+
+<section class="art">
+  <div class="container">
+    <div class="row state-art">
+      <div class="col"><img src="illustration-phones.svg" class="img-fluid two-phones"></div>
+      <div class="col"><h3>State of the Art Infrastructre</h3><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic cupiditate eius natus laborum molestias id enim minima modi! Sunt voluptatibus et nesciunt necessitatibus officia iure pariatur natus sed quos!</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- last section -->
+
+<section class="last">
+  <div class="container">
+    <div class="row last">
+      <div class="col"><img src="illustration-laptop-desktop.svg" class="img-fluid"></div>
+      <div class="col"><h3>Free, open, simple</h3><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum minima, architecto quas ipsam neque necessitatibus. Alias unde officia quae fuga.</p><h3>Powerful tooling</h3><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dolorem quaerat unde suscipit, nihil illum totam adipisci nulla asperiores expedita?</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ///footer -->
+
+  <footer class="last-section">
+    <div class="container">
+    <div class="row foot-wrap">
+    <div class="col">
+      <img src="logo.svg">
+    </div>
+    <div class="col foot">
+      <h4>Product</h4>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+    </div>
+    <div class="col foot">
+      <h4>Company</h4>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+    </div>
+    <div class="col foot">
+      <h4>Connect</h4>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+      <a href="#">About</a>
+    </div>
+    </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="" async defer></script>
+  </body>
+</html>

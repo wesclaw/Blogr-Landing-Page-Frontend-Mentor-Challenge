@@ -1,0 +1,51 @@
+@media(max-width: 700px){
+  .main{
+    margin-top: 0px;
+  }
+
+  .main button{
+    padding: 8px 20px;
+  }
+
+  .design-row{
+    flex-direction: column;
+  }
+
+  .edit-img{
+    display: none;
+  }
+
+ .state-art{
+  flex-direction: column;
+ }
+
+ .art{
+  height: 700px;
+  margin-top: 0px;
+ }
+
+ .two-phones{
+  top: 50px;
+ }
+
+ .last{
+  flex-direction: column;
+  margin-top: 0px;
+ }
+
+ .last-section{
+  flex-direction: column;
+  display: flex;
+  height: auto;
+ }
+
+ .foot-wrap{
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+ }
+
+ 
+ 
+
+}
